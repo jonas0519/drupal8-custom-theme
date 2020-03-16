@@ -1,0 +1,22 @@
+name: Drupal
+type: theme
+description: 'My html5 custom theme'
+package: custom
+core: 8.x
+
+libraries:
+  - mytheme/global-css
+  - mytheme/bootstrap
+
+regions:
+  logo: Logo
+  siteheading: Site Heading
+  navbar: Navigation
+  land: Home
+  content: Page Content
+  footerbig: Footer Big Left
+  footerone: Footer One
+  footertwo: Footer Two
+  footerthree: Footer Three
+  footerfour: Footer Four
+  footerbotom: Footer Bottom

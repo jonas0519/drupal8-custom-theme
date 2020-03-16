@@ -1,0 +1,15 @@
+global-css:
+  version:  1.0
+  css:
+    theme:
+      css/style.css: {}
+
+bootstrap:
+  version: 1.0
+  css:
+    base:
+      bootstrap/css/bootstrap.css: { weight: 0 }
+  js:
+    bootstrap/js/bootstrap.js: {}
+  dependencies:
+    - core/jquery
